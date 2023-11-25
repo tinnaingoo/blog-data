@@ -1,0 +1,107 @@
+.centered-top {
+    display: none;
+}
+
+  
+.bg-photo-overlay {
+    background: rgba(0,0,0,.26);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    display: none;
+} 
+  
+.bg-photo-container {
+    background: #b30019;
+    display: none;
+}
+  
+.page_body .centered {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 922px;
+    min-height: 100vh;
+    padding: 0;
+}  
+  
+.item-view .blog-name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 48px 27px 48px;
+    display: none;
+}
+  
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited {
+    color: #212121;
+    display: none;
+}  
+
+#page_body .FeaturedPost, .Blog .blog-posts .post-outer-container {
+    background: #ffffff;
+    min-height: 40px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px red;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+  
+.post-bottom {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}  
+  
+.main .PopularPosts {
+    padding: 16px 40px;
+    display: none;
+}
+  
+.collapsible>summary {
+    cursor: pointer;
+    display: none;
+    padding: 0;
+}
+
+
+  /*For Comment Hidden*/
+#comments {
+    border-top: 1px dashed rgba(0,0,0,.54);
+    margin-top: 20px;
+    padding: 20px;
+    display: none;
+}
+  
+  #comments.embed[data-num-comments="0"] {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0;
+    padding-top: 0;
+    display: none;
+}
+
+  .page_body .centered>#footer {
+    margin-top: auto;
+    background-color: #B30019;
+    padding-top: 5px;
+    display: none;
+}
